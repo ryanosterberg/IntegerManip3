@@ -42,6 +42,8 @@ namespace IntegerManip
                 }
             }
             Output(numbers);
+            OutputDivisibleByThree(numbers);
+            Console.ReadLine();
         }
         static void Output(ArrayList numbers)
         {
@@ -49,7 +51,17 @@ namespace IntegerManip
             {
                 Console.WriteLine(i);
             }
-            Console.ReadLine();
+        }
+
+        static void OutputDivisibleByThree(ArrayList numbers)
+        {
+            foreach (int i in numbers)
+            {
+                if (i % 3 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
         }
     }
 }
