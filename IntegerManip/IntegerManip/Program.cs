@@ -23,5 +23,16 @@ namespace IntegerManip
             ArrayList numbers = new ArrayList();
             Console.ReadLine();
         }
+
+        static void everyFifth(ArrayList numbers)
+        {
+            foreach (int temp in numbers)
+            {
+                if (numbers.IndexOf(temp)%5==0)
+                {
+                    Console.WriteLine(temp);
+                }
+            }
+        }
     }
 }
