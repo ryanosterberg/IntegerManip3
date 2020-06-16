@@ -81,7 +81,7 @@ namespace IntegerManip
                             //Sum of Integers
                             break;
                         case 6:
-                            // Divisible by 3
+                            OutputDivisibleByThree(numbers);
                             break;
                         case 7:
                             //quit
@@ -121,6 +121,16 @@ namespace IntegerManip
                 if (temp % 2 == 0)
                 {
                     Console.WriteLine(temp);
+                }
+            }
+        }
+        static void OutputDivisibleByThree(ArrayList numbers)
+        {
+            foreach (int i in numbers)
+            {
+                if (i % 3 == 0)
+                {
+                    Console.WriteLine(i);
                 }
             }
         }
