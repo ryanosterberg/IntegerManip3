@@ -25,14 +25,20 @@ namespace IntegerManip
             {
                 Console.WriteLine("Input a number or use Q to quit");
                 String input = Console.ReadLine();
-                if(input.Equals("Q"))
+                int ignore;
+                bool valid = Int32.TryParse(input, out ignore);
+                if (input.Equals("Q"))
                 {
                     i = 20;
                 }
-                else
-                {
+                else if(valid) {
                     int integer = Convert.ToInt32(input);
                     numbers.Add(integer);
+                }
+                else
+                {
+                    i--;
+                    Console.WriteLine("Invalid Input");
                 }
             }
             Output(numbers);
