@@ -21,6 +21,28 @@ namespace IntegerManip
         static void Main(string[] args)
         {
             ArrayList numbers = new ArrayList();
+            for (int i=0; i < 20; i++)
+            {
+                Console.WriteLine("Input a number or use Q to quit");
+                String input = Console.ReadLine();
+                if(input.Equals("Q"))
+                {
+                    i = 20;
+                }
+                else
+                {
+                    int integer = Convert.ToInt32(input);
+                    numbers.Add(integer);
+                }
+            }
+            Output(numbers);
+        }
+        static void Output(ArrayList numbers)
+        {
+            foreach (int i in numbers)
+            {
+                Console.WriteLine(i);
+            }
             Console.ReadLine();
         }
     }
