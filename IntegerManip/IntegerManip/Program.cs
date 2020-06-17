@@ -75,7 +75,7 @@ namespace IntegerManip
                             Odds(numbers);
                             break;
                         case 4:
-                            //5th Number
+                            EveryFifth(numbers);
                             break;
                         case 5:
                             //Sum of Integers
@@ -135,13 +135,14 @@ namespace IntegerManip
             }
         }
 
-        static void everyFifth(ArrayList numbers)
+        static void EveryFifth(ArrayList numbers)
         {
-            foreach (int temp in numbers)
+            foreach (int numCk in numbers)
             {
-                if (numbers.IndexOf(temp)%5==0)
+                if (numbers.IndexOf(numCk) == 4 || numbers.IndexOf(numCk) == 9
+                    || numbers.IndexOf(numCk) == 14 || numbers.IndexOf(numCk) == 19)
                 {
-                    Console.WriteLine(temp);
+                    Console.WriteLine(numCk);
                 }
             }
         }

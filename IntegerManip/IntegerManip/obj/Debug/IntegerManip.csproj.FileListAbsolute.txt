@@ -29,3 +29,10 @@ C:\Users\ryany\Desktop\Repositories\IntegerManip3\IntegerManip\IntegerManip\obj\
 C:\Users\ryany\Desktop\Repositories\IntegerManip3\IntegerManip\IntegerManip\obj\Debug\IntegerManip.exe
 C:\Users\ryany\Desktop\Repositories\IntegerManip3\IntegerManip\IntegerManip\obj\Debug\IntegerManip.pdb
 >>>>>>> dev
+C:\Users\riley\OneDrive\Desktop\CTW Repositories\IntegerManip3\IntegerManip\IntegerManip\bin\Debug\IntegerManip.exe.config
+C:\Users\riley\OneDrive\Desktop\CTW Repositories\IntegerManip3\IntegerManip\IntegerManip\bin\Debug\IntegerManip.exe
+C:\Users\riley\OneDrive\Desktop\CTW Repositories\IntegerManip3\IntegerManip\IntegerManip\bin\Debug\IntegerManip.pdb
+C:\Users\riley\OneDrive\Desktop\CTW Repositories\IntegerManip3\IntegerManip\IntegerManip\obj\Debug\IntegerManip.csprojAssemblyReference.cache
+C:\Users\riley\OneDrive\Desktop\CTW Repositories\IntegerManip3\IntegerManip\IntegerManip\obj\Debug\IntegerManip.csproj.CoreCompileInputs.cache
+C:\Users\riley\OneDrive\Desktop\CTW Repositories\IntegerManip3\IntegerManip\IntegerManip\obj\Debug\IntegerManip.exe
+C:\Users\riley\OneDrive\Desktop\CTW Repositories\IntegerManip3\IntegerManip\IntegerManip\obj\Debug\IntegerManip.pdb
