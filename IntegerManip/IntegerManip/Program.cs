@@ -53,7 +53,7 @@ namespace IntegerManip
                 Console.WriteLine("3: Odds");
                 Console.WriteLine("4: 5th Number");
                 Console.WriteLine("5: Sum of Integers");
-                Console.WriteLine("6: All Numbewrs Divisible by 3");
+                Console.WriteLine("6: All Numbers Divisible by 3");
                 Console.WriteLine("7: Quit");
                 input = Console.ReadLine();
                 if (Int32.TryParse(input, out ignore) == false)
@@ -132,14 +132,6 @@ namespace IntegerManip
                 {
                     Console.WriteLine(i);
                 }
-            }
-        }
-
-        static void PrintAllInputs(ArrayList numbers)
-        {
-            foreach(int i in numbers)
-            {
-                Console.WriteLine((int)numbers[i]);
             }
         }
 
