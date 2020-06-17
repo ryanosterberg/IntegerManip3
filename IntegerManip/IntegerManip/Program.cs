@@ -140,7 +140,7 @@ namespace IntegerManip
             int sum = 0;
             foreach(int i in numbers)
             {
-                sum += ((int)numbers[i]);
+                sum += i;
             }
             return sum;
         }
