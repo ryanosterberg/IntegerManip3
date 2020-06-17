@@ -147,13 +147,15 @@ namespace IntegerManip
 
         static void EveryFifth(ArrayList numbers)
         {
-            foreach (int numCk in numbers)
+            if(numbers.Count < 5)
             {
-                if (numbers.IndexOf(numCk) == 4 || numbers.IndexOf(numCk) == 9
-                    || numbers.IndexOf(numCk) == 14 || numbers.IndexOf(numCk) == 19)
-                {
-                    Console.WriteLine(numCk);
-                }
+                Console.WriteLine("Not enough numbers");
+                return;
+            }
+            for(int numCk = 4; numCk < numbers.Count; numCk += 5)
+            {
+                    Console.WriteLine(numbers[numCk]);
+                
             }
         }
     }
