@@ -78,7 +78,7 @@ namespace IntegerManip
                             //5th Number
                             break;
                         case 5:
-                            //Sum of Integers
+                            Console.WriteLine(SumOfAll(numbers));
                             break;
                         case 6:
                             OutputDivisibleByThree(numbers);
@@ -133,6 +133,24 @@ namespace IntegerManip
                     Console.WriteLine(i);
                 }
             }
+        }
+
+        static void PrintAllInputs(ArrayList numbers)
+        {
+            foreach(int i in numbers)
+            {
+                Console.WriteLine((int)numbers[i]);
+            }
+        }
+
+        static int SumOfAll(ArrayList numbers)
+        {
+            int sum = 0;
+            foreach(int i in numbers)
+            {
+                sum += ((int)numbers[i]);
+            }
+            return sum;
         }
     }
 }
