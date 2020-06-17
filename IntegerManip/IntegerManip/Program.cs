@@ -75,7 +75,7 @@ namespace IntegerManip
                             Odds(numbers);
                             break;
                         case 4:
-                            //5th Number
+                            EveryFifth(numbers);
                             break;
                         case 5:
                             Console.WriteLine(SumOfAll(numbers));
@@ -143,6 +143,20 @@ namespace IntegerManip
                 sum += ((int)numbers[i]);
             }
             return sum;
+        }
+
+        static void EveryFifth(ArrayList numbers)
+        {
+            if(numbers.Count < 5)
+            {
+                Console.WriteLine("Not enough numbers");
+                return;
+            }
+            for(int numCk = 4; numCk < numbers.Count; numCk += 5)
+            {
+                    Console.WriteLine(numbers[numCk]);
+                
+            }
         }
     }
 }
