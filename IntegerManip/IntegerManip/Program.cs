@@ -53,7 +53,7 @@ namespace IntegerManip
                 Console.WriteLine("3: Odds");
                 Console.WriteLine("4: 5th Number");
                 Console.WriteLine("5: Sum of Integers");
-                Console.WriteLine("6: All Numbewrs Divisible by 3");
+                Console.WriteLine("6: All Numbers Divisible by 3");
                 Console.WriteLine("7: Quit");
                 input = Console.ReadLine();
                 if (Int32.TryParse(input, out ignore) == false)
@@ -78,7 +78,7 @@ namespace IntegerManip
                             EveryFifth(numbers);
                             break;
                         case 5:
-                            //Sum of Integers
+                            Console.WriteLine(SumOfAll(numbers));
                             break;
                         case 6:
                             OutputDivisibleByThree(numbers);
@@ -133,6 +133,16 @@ namespace IntegerManip
                     Console.WriteLine(i);
                 }
             }
+        }
+
+        static int SumOfAll(ArrayList numbers)
+        {
+            int sum = 0;
+            foreach(int i in numbers)
+            {
+                sum += ((int)numbers[i]);
+            }
+            return sum;
         }
 
         static void EveryFifth(ArrayList numbers)
